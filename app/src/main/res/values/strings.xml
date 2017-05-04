@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidBasic</string>
+
+    <string name="dialog_loading">正在加载...</string>
 </resources>
