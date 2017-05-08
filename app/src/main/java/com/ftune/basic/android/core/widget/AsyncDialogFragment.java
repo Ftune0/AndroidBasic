@@ -15,7 +15,7 @@ import com.ftune.basic.android.R;
 
 /**
  * Created by ftune on 17/5/4.
- *
+ * <p>
  * Async request loading dialog.
  */
 public class AsyncDialogFragment extends DialogFragment {

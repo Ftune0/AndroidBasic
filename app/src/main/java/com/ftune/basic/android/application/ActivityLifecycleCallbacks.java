@@ -7,7 +7,7 @@ import timber.log.Timber;
 
 /**
  * Created by ftune on 17/5/4.
- *
+ * <p>
  * Activity life cycle callbacks.
  */
 

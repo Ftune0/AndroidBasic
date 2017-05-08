@@ -11,4 +11,6 @@ public class Constants {
     public final static int REQUEST_PHOTO_PICK = 1;
     public final static int REQUEST_PHOTO_CROP = 2;
 
+    public static final String BASE_URL = "http://www.domain.com/api/";
+
 }

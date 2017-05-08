@@ -9,7 +9,7 @@ import java.io.FileReader;
 
 /**
  * Created by wufuchang on 17/5/4.
- *
+ * <p>
  * Custom Application use to handle globle state or action.
  */
 
@@ -41,6 +41,7 @@ public class App extends Application {
     /**
      * If it is need to init application. Some 3th part sdk will fork a process while init,
      * and will do application onCreate again. Use this function to check.
+     *
      * @return true if application is not init.
      */
     private boolean shouldInitApp() {
@@ -58,7 +59,8 @@ public class App extends Application {
 
     /**
      * Get application instance
-     * @return  application instance
+     *
+     * @return application instance
      */
     public static synchronized App getApplication() {
         return INSTATNCE;
@@ -67,5 +69,12 @@ public class App extends Application {
     @Override
     public void onTerminate() {
         super.onTerminate();
+    }
+
+    /**
+     * Jump to logon activity.
+     */
+    public void toLogon() {
+
     }
 }

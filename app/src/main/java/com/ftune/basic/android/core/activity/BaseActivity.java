@@ -20,7 +20,7 @@ import com.ftune.basic.android.core.widget.AsyncDialogFragment;
 
 /**
  * Created by ftune on 17/5/4.
- *
+ * <p>
  * Base activity.
  */
 public class BaseActivity extends AppCompatActivity {

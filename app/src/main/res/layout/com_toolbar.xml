@@ -10,7 +10,7 @@
     android:minHeight="48dp"
     toolbar:title=" "
     toolbar:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
-    toolbar:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+    toolbar:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
     <ImageView
         android:id="@+id/iv_back"

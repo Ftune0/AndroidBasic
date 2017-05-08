@@ -2,4 +2,6 @@
     <string name="app_name">AndroidBasic</string>
 
     <string name="dialog_loading">正在加载...</string>
+
+    <string name="toast_session_timeout">您的信息已过期，请重新登录</string>
 </resources>

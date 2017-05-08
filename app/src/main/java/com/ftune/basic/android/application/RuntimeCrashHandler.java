@@ -2,7 +2,7 @@ package com.ftune.basic.android.application;
 
 /**
  * Created by ftune on 17/5/4.
- *
+ * <p>
  * Runtime exception handler.
  */
 public class RuntimeCrashHandler implements Thread.UncaughtExceptionHandler {
